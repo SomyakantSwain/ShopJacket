@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+        height: 100%;
+        /* background-color: gray; */
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    /* background-color: dadada; */
+ }
+.nav{
+    /* background-color: rgb(240, 7, 7); */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 0 30px;
+    
+    
+}
+.nav h4{
+    font-size: 17px;
+}
+.nav i{
+    background-color: black;
+    color: wheat;
+    font-size: 25px;
+    padding: 7px;
+    border-radius: 50%;
+}
+.center{
+    /* background: red; */
+    padding: 50px;
+    letter-spacing: 2px;
+    
+    
+}
+.center h1{
+    font-size: 3.8rem;
+    /* padding-left: 30px; */
+    font-weight: 500;
+}
+.subcen{
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 60px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.subcen .left{
+/* padding-left: 80px; */
+ font-size: 17px;
+}
+.subcen .right{
+    width: 25%;
+    /* background-color: yellow; */
+    /* display: flex; */
+  
+}
+.elem{
+    /* background-color: yellow; */
+    padding: 20px;
+    margin: 4px;
+    border-top:2px solid black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.elem i{
+    font-size: 26px;
+opacity: 0;
+}
+.elem:hover i{
+    background-color: gray;
+    border-radius: 50%;
+    /* transition: calc(20); */
+    opacity: 1;
+}
+.image{
+    /* background-color: red; */
+    width: 100%;
+    height: 60%;
+    background-image:url(https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    
+    background-position: 0 37%;
+}
